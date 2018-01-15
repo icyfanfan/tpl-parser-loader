@@ -1,8 +1,12 @@
 {
     "name": "tpl-parser-loader",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "一个可用于解析后端java模板（vm或ftl）的webpack loader",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/icyfanfan/tpl-parser-loader.git"
+    },
     "scripts": {
     },
     "author": "icy",
@@ -10,6 +14,10 @@
     "dependencies": {
       "velocity": "0.7.2",
       "freemarker.js": "^1.3.1"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/icyfanfan/tpl-parser-loader/issues"
+    },
+    "homepage": "https://github.com/icyfanfan/tpl-parser-loader#readme"
 }
   
